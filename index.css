@@ -196,6 +196,7 @@
   transform: scale(1.02);
 }
 
+
 .feature-card-container {
   flex: 0 0 auto;
   width: 25%;
@@ -876,6 +877,12 @@
   color: var(--dl-color-gray-white);
   opacity: 0.8;
   margin-bottom: var(--dl-space-space-doubleunit);
+}
+.home-link3 {
+  display: contents;
+}
+.home-component7 {
+  text-decoration: none;
 }
 .home-logos {
   display: flex;
