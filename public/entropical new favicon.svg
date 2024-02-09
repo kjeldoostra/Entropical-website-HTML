@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="650.653 1046.65 270.694 314.27" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<clipPath id="ArtboardFrame">
+<rect height="314.27" width="270.694" x="650.653" y="1046.65"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer" vectornator:layerName="Layer">
+<g opacity="1" vectornator:layerName="Group 1">
+<path d="M792.92 1327.21C773.383 1294.44 784.111 1252.03 816.882 1232.5C849.652 1212.96 892.056 1223.69 911.592 1256.46C931.129 1289.23 920.4 1331.63 887.63 1351.17C854.859 1370.71 812.456 1359.98 792.92 1327.21Z" fill="#ff0080" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="Oval 1"/>
+<path d="M792.92 1151.12C773.383 1118.35 784.111 1075.95 816.882 1056.41C849.652 1036.87 892.056 1047.6 911.592 1080.37C931.129 1113.14 920.4 1155.54 887.63 1175.08C854.859 1194.62 812.456 1183.89 792.92 1151.12Z" fill="#ca28ca" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="Oval 2"/>
+<path d="M660.408 1228.71C640.871 1195.94 651.599 1153.54 684.37 1134C717.14 1114.47 759.543 1125.2 779.08 1157.97C798.616 1190.74 787.888 1233.14 755.118 1252.68C722.347 1272.21 679.944 1261.49 660.408 1228.71Z" fill="#7928ca" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="Oval 3"/>
+</g>
+</g>
+</svg>
