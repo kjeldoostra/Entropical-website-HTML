@@ -151,6 +151,9 @@
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
 }
+.header-component1 {
+  text-decoration: none;
+}
 .header-bot {
   flex: 0 0 auto;
   width: 200px;
