@@ -280,7 +280,7 @@
   }
 }
 
-.vacancy-evp-analysis-with-ai-fanployer-case-study-container {
+.content-marketing-strategy-with-ai-contentoo-case-study-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -290,7 +290,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-900);
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-container1 {
+.content-marketing-strategy-with-ai-contentoo-case-study-container1 {
   width: 100%;
   height: auto;
   display: flex;
@@ -298,7 +298,7 @@
   align-items: center;
   flex-direction: column;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-main {
+.content-marketing-strategy-with-ai-contentoo-case-study-main {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -310,7 +310,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-container2 {
+.content-marketing-strategy-with-ai-contentoo-case-study-container2 {
   flex: 0 0 auto;
   width: 70%;
   display: flex;
@@ -325,48 +325,54 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-tripleunit);
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image {
+.content-marketing-strategy-with-ai-contentoo-case-study-image {
   width: 200px;
   object-fit: cover;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text {
+.content-marketing-strategy-with-ai-contentoo-case-study-text {
   font-size: 3rem;
   margin-bottom: var(--dl-space-space-halfunit);
   background-image: linear-gradient(310deg, rgb(121, 40, 202), rgb(255, 0, 128));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text04 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text04 {
   font-weight: 700;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text06 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text06 {
   font-weight: 700;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text08 {
-  font-weight: 700;
-}
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text10 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text08 {
   margin-top: var(--dl-space-space-unit);
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text13 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text11 {
   font-weight: 700;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text15 {
-  font-weight: 700;
-}
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text17 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text13 {
   margin-top: var(--dl-space-space-unit);
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text22 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text18 {
   font-weight: 700;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text24 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text20 {
+  font-weight: 700;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-text22 {
+  font-weight: 700;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-text24 {
+  font-weight: 700;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-text26 {
   margin-top: var(--dl-space-space-unit);
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text27 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text29 {
   font-weight: 700;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-testimonial-card {
+.content-marketing-strategy-with-ai-contentoo-case-study-text31 {
+  font-weight: 700;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-testimonial-card {
   width: 100%;
   display: flex;
   padding: 48px;
@@ -377,35 +383,35 @@
   align-items: center;
   justify-content: space-between;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-testimonial {
+.content-marketing-strategy-with-ai-contentoo-case-study-testimonial {
   display: flex;
   align-items: flex-start;
   margin-right: 48px;
   flex-direction: column;
   justify-content: space-between;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text29 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text33 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text30 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text34 {
   color: var(--dl-color-gray-500);
   font-size: 1.15rem;
   margin-bottom: 32px;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text34 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text38 {
   font-weight: 700;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text36 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text40 {
   font-weight: 700;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-link {
+.content-marketing-strategy-with-ai-contentoo-case-study-link {
   display: contents;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-component1 {
+.content-marketing-strategy-with-ai-contentoo-case-study-component1 {
   text-decoration: none;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-container3 {
+.content-marketing-strategy-with-ai-contentoo-case-study-container3 {
   flex: 0 0 auto;
   width: 192px;
   height: auto;
@@ -413,20 +419,20 @@
   align-items: space-between;
   flex-direction: column;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image01 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image01 {
   width: 192px;
   height: 192px;
   object-fit: cover;
   flex-shrink: 0;
   border-radius: var(--dl-radius-radius-round);
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text39 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text43 {
   text-align: center;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-text40 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text44 {
   font-weight: 700;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-grid {
+.content-marketing-strategy-with-ai-contentoo-case-study-grid {
   top: -20%;
   left: -35%;
   width: 70%;
@@ -437,69 +443,69 @@
   transform: rotate(20deg);
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image02 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image02 {
   width: 100%;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image03 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image03 {
   width: 100%;
   margin-top: -200px;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image04 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image04 {
   width: 100%;
   margin-top: -50px;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image05 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image05 {
   width: 100%;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image06 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image06 {
   width: 100%;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image07 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image07 {
   width: 100%;
   margin-top: -200px;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image08 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image08 {
   width: 100%;
   margin-top: -50px;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image09 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image09 {
   width: 100%;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image10 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image10 {
   width: 100%;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image11 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image11 {
   width: 100%;
   margin-top: -200px;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image12 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image12 {
   width: 100%;
   margin-top: -50px;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image13 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image13 {
   width: 100%;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image14 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image14 {
   width: 100%;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image15 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image15 {
   width: 100%;
   margin-top: -200px;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image16 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image16 {
   width: 100%;
 }
-.vacancy-evp-analysis-with-ai-fanployer-case-study-image17 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image17 {
   width: 100%;
 }
 @media(max-width: 991px) {
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-container1 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-container1 {
     background-size: auto;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-main {
+  .content-marketing-strategy-with-ai-contentoo-case-study-main {
     justify-content: flex-start;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-container2 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-container2 {
     width: 70%;
     align-self: flex-start;
     margin-top: 0px;
@@ -509,145 +515,145 @@
     margin-bottom: 0px;
     padding-right: var(--dl-space-space-tripleunit);
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-text40 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-text44 {
     font-weight: 700;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-text41 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-text45 {
     font-weight: 700;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-grid {
+  .content-marketing-strategy-with-ai-contentoo-case-study-grid {
     top: 40%;
     left: auto;
     right: -6rem;
     bottom: -6rem;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image02 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image02 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image03 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image03 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image04 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image04 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image05 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image05 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image06 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image06 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image07 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image07 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image08 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image08 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image09 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image09 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image10 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image10 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image11 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image11 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image12 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image12 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image13 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image13 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image14 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image14 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image15 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image15 {
     width: 120px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image16 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image16 {
     width: 120px;
     margin-top: -50px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image17 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image17 {
     width: 120px;
   }
 }
 @media(max-width: 767px) {
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-container2 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-container2 {
     width: 100%;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-testimonial-card {
+  .content-marketing-strategy-with-ai-contentoo-case-study-testimonial-card {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-testimonial {
+  .content-marketing-strategy-with-ai-contentoo-case-study-testimonial {
     margin-right: 32px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-grid {
+  .content-marketing-strategy-with-ai-contentoo-case-study-grid {
     right: 0;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image02 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image02 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image03 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image03 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image04 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image04 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image05 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image05 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image06 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image06 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image07 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image07 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image08 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image08 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image09 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image09 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image10 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image10 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image11 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image11 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image12 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image12 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image13 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image13 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image14 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image14 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image15 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image15 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image16 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image16 {
     width: 100px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-image17 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-image17 {
     width: 100px;
   }
 }
 @media(max-width: 479px) {
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-testimonial-card {
+  .content-marketing-strategy-with-ai-contentoo-case-study-testimonial-card {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     flex-direction: column;
     padding-bottom: 32px;
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-testimonial {
+  .content-marketing-strategy-with-ai-contentoo-case-study-testimonial {
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .vacancy-evp-analysis-with-ai-fanployer-case-study-text30 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-text34 {
     text-align: left;
   }
 }
