@@ -18,12 +18,12 @@
   font-size: 1.25rem;
   margin-right: var(--dl-space-space-halfunit);
 }
-.next-button-icon {
+.next-button-icon1 {
   fill: var(--dl-color-blue-500);
   width: var(--dl-size-size-unit);
   height: var(--dl-size-size-unit);
   transition: 0.3s;
 }
-.next-button-icon:hover {
+.next-button-icon1:hover {
   transform: translateX(5px);
 }

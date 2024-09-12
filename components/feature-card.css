@@ -13,23 +13,20 @@
   object-fit: cover;
   margin-bottom: var(--dl-space-space-unitandahalfunit);
 }
-.feature-card-text {
-  color: var(--dl-color-secondary-600);
-  margin-top: var(--dl-space-space-halfunit);
-  text-align: center;
-  margin-bottom: var(--dl-space-space-halfunit);
+.feature-card-fragment {
+  display: contents;
 }
-.feature-card-text1 {
+.feature-card-text3 {
+  display: inline-block;
   text-align: center;
-  margin-bottom: var(--dl-space-space-unit);
 }
-.feature-card-root-class-name {
+.feature-cardroot-class-name {
   width: 33%;
 }
-.feature-card-root-class-name1 {
+.feature-cardroot-class-name1 {
   width: 33%;
 }
-.feature-card-root-class-name2 {
+.feature-cardroot-class-name2 {
   width: 33%;
 }
 @media(max-width: 767px) {

@@ -1,3 +1,6 @@
+.primary-pink-button-wrapper {
+  display: contents;
+}
 .primary-pink-button-container {
   display: flex;
   position: relative;
@@ -45,7 +48,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: space-between;
 }
-.header-full-container {
+.header-full-container1 {
   color: var(--dl-color-gray-black);
   width: 100%;
   display: flex;
@@ -53,7 +56,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.header-full-navlink {
+.header-full-navlink1 {
   font-weight: 600;
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
@@ -63,17 +66,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-}
-.header-full-navlink1 {
-  margin-top: var(--dl-space-space-halfunit);
-  transition: 0.3s;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-halfunit);
-  text-decoration: none;
-}
-.header-full-navlink1:hover {
-  color: var(--dl-color-gray-500);
 }
 .header-full-navlink2 {
   margin-top: var(--dl-space-space-halfunit);
@@ -97,11 +89,16 @@
 .header-full-navlink3:hover {
   color: var(--dl-color-gray-500);
 }
-.header-full-container1 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
+.header-full-navlink4 {
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.header-full-navlink4:hover {
+  color: var(--dl-color-gray-500);
 }
 .header-full-container2 {
   display: flex;
@@ -109,7 +106,13 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.header-full-icon {
+.header-full-container3 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-full-icon1 {
   width: 24px;
   height: 24px;
   display: none;
@@ -119,18 +122,18 @@
   .header-full-nav {
     max-width: 960px;
   }
-  .header-full-navlink {
+  .header-full-navlink1 {
     color: var(--dl-color-secondary-700);
   }
   .header-full-menu {
     display: none;
   }
-  .header-full-icon {
+  .header-full-icon1 {
     display: flex;
   }
 }
 @media(max-width: 479px) {
-  .header-full-container2 {
+  .header-full-container3 {
     display: none;
   }
 }

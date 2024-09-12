@@ -6,7 +6,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.list-item-text {
+.list-item-text1 {
   color: var(--dl-color-secondary-600);
   margin-bottom: var(--dl-space-space-halfunit);
 }

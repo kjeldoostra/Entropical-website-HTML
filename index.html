@@ -35,7 +35,7 @@
         letter-spacing: normal;
         line-height: 1.625;
         color: var(--dl-color-secondary-400);
-        background-color: var(--dl-color-gray-white);
+        background: var(--dl-color-gray-white);
 
         null
       }
@@ -78,194 +78,242 @@
     <div>
       <link href="./index.css" rel="stylesheet" />
 
-      <div class="home-container">
-        <div data-role="Header" class="header-header">
-          <nav class="header-nav">
-            <div class="header-container">
-              <a href="index.html" class="header-link">
-                <img
-                  alt="image"
-                  src="public/logos/entropical%20logo%20new-1500h.png"
-                  class="header-image"
-                />
-              </a>
+      <div class="home-container10">
+        <header-wrapper class="header-wrapper">
+          <!--Header component-->
+          <div data-role="Header" class="header-header">
+            <nav class="header-nav">
               <div class="header-container1">
+                <a href="index.html" class="header-link1">
+                  <img
+                    alt="image"
+                    src="public/logos/entropical%20logo%20new-1500h.png"
+                    class="header-image1"
+                  />
+                </a>
                 <div class="header-container2">
-                  <a
-                    href="https://calendly.com/entropical/15min"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    class="header-link1"
-                  >
-                    <div class="primary-pink-button-container">
-                      <button
-                        class="primary-pink-button-button button ButtonSmall"
-                      >
-                        <span>Schedule a call</span>
-                      </button>
-                    </div>
-                  </a>
+                  <div class="header-container3">
+                    <a
+                      href="https://calendly.com/entropical/15min"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="header-link2"
+                    >
+                      <primary-pink-button-wrapper class="header-component1">
+                        <!--PrimaryPinkButton component-->
+                        <div class="primary-pink-button-container">
+                          <button
+                            class="primary-pink-button-button button ButtonSmall"
+                          >
+                            <span>Schedule a call</span>
+                          </button>
+                        </div>
+                      </primary-pink-button-wrapper>
+                    </a>
+                  </div>
+                  <div data-role="BurgerMenu" class="header-burger-menu">
+                    <svg viewBox="0 0 1024 1024" class="header-icon1">
+                      <path
+                        d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                      ></path>
+                    </svg>
+                  </div>
                 </div>
-                <div data-role="BurgerMenu" class="header-burger-menu">
-                  <svg viewBox="0 0 1024 1024" class="header-icon">
+              </div>
+            </nav>
+            <div data-role="MobileMenu" class="header-mobile-menu">
+              <div class="header-top">
+                <a href="index.html" class="header-navlink">
+                  <img
+                    alt="image"
+                    src="public/logos/entropical%20logo%20new-1500h.png"
+                    class="header-image2"
+                  />
+                </a>
+                <div data-role="CloseMobileMenu" class="header-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="header-icon3">
                     <path
-                      d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                     ></path>
                   </svg>
                 </div>
               </div>
-            </div>
-          </nav>
-          <div data-role="MobileMenu" class="header-mobile-menu">
-            <div class="header-top">
-              <a href="index.html" class="header-navlink">
-                <img
-                  alt="image"
-                  src="public/logos/entropical%20logo%20new-1500h.png"
-                  class="header-image1"
-                />
-              </a>
-              <div data-role="CloseMobileMenu" class="header-close-menu">
-                <svg viewBox="0 0 1024 1024" class="header-icon2">
-                  <path
-                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                  ></path>
-                </svg>
+              <div class="header-mid">
+                <a
+                  href="https://calendly.com/entropical/15min"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="header-link3"
+                >
+                  <primary-pink-button-wrapper-c7zo class="header-component2">
+                    <!--PrimaryPinkButton component-->
+                    <div class="primary-pink-button-container1">
+                      <button
+                        class="primary-pink-button-button1 button ButtonSmall"
+                      >
+                        <span>Schedule a call</span>
+                      </button>
+                    </div>
+                  </primary-pink-button-wrapper-c7zo>
+                </a>
               </div>
             </div>
-            <div class="header-mid">
-              <a
-                href="https://calendly.com/entropical/15min"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="header-link2"
-              >
-                <div class="primary-pink-button-container">
-                  <button class="primary-pink-button-button button ButtonSmall">
-                    <span>Schedule a call</span>
-                  </button>
-                </div>
-              </a>
-            </div>
           </div>
-        </div>
+        </header-wrapper>
         <div class="home-hero">
-          <div class="home-container01">
+          <div class="home-container11">
             <div class="home-card">
-              <h1 class="home-text HeadingOne">Optimize business processes.</h1>
-              <h1 class="home-text01 HeadingOne">Automate with AI.</h1>
-              <span class="home-text02">
+              <h1 class="home-text10 HeadingOne">
+                Optimize business processes.
+              </h1>
+              <h1 class="home-text11 HeadingOne">Automate with AI.</h1>
+              <span class="home-text12">
                 We specialize in transforming complex business challenges into
                 actionable AI strategies and intelligent solutions.
               </span>
-              <div class="home-container02">
-                <div class="home-container03">
+              <div class="home-container12">
+                <div class="home-container13">
                   <a
                     href="mailto:kjeld@entropical.ai?subject=Introduction"
-                    class="home-link"
+                    class="home-link1"
                   >
-                    <div class="primary-pink-button-container">
-                      <button
-                        class="primary-pink-button-button button ButtonSmall"
-                      >
-                        <span>Send us an email</span>
-                      </button>
-                    </div>
+                    <primary-pink-button-wrapper-7021 class="home-component11">
+                      <!--PrimaryPinkButton component-->
+                      <div class="primary-pink-button-container2">
+                        <button
+                          class="primary-pink-button-button2 button ButtonSmall"
+                        >
+                          <span>Send us an email</span>
+                        </button>
+                      </div>
+                    </primary-pink-button-wrapper-7021>
                   </a>
                 </div>
-                <a href="##services" class="home-link1">
-                  <div class="outline-gray-button-container">
-                    <button
-                      class="outline-gray-button-button button ButtonSmall"
+                <a href="##services" class="home-link2">
+                  <outline-gray-button-wrapper class="home-component12">
+                    <!--OutlineGrayButton component-->
+                    <div
+                      class="outline-gray-button-container outline-gray-button"
                     >
-                      <span>read more</span>
-                    </button>
-                  </div>
+                      <button
+                        class="outline-gray-button-button button ButtonSmall"
+                      >
+                        <span>read more</span>
+                      </button>
+                    </div>
+                  </outline-gray-button-wrapper>
                 </a>
               </div>
-              <div class="home-container04">
+              <div class="home-container14">
                 <img
                   alt="image"
                   src="public/logos/contentoo-logo-2-1500h.png"
-                  class="home-image"
+                  class="home-image10"
                 />
                 <img
                   alt="image"
                   src="public/logos/fanployer-logo-1400w.png"
-                  class="home-image01"
+                  class="home-image11"
                 />
-                <div class="home-container05">
+                <div class="home-container15">
                   <img
                     alt="image"
                     src="public/logos/passionfruit-logo.svg"
-                    class="home-image02"
+                    class="home-image12"
                   />
-                  <span class="home-text03">Passionfruit</span>
+                  <span class="home-text13">Passionfruit</span>
                 </div>
                 <img
                   alt="image"
-                  src="public/logos/zeelandia-2-1500h.png"
-                  class="home-image03"
+                  src="public/logos/halon_logo_black.svg"
+                  class="home-image13"
                 />
               </div>
             </div>
           </div>
         </div>
-        <img alt="image" src="public/curved6-1500h.jpg" class="home-image04" />
+        <img alt="image" src="public/curved6-1500h.jpg" class="home-image14" />
         <section id="#services" class="home-features">
-          <div class="feature-card-container feature-card-root-class-name">
-            <img
-              alt="image"
-              src="public/cube1.svg"
-              class="feature-card-image"
-            />
-            <h5 class="feature-card-text HeadingThree">
-              <span>Identify</span>
-            </h5>
-            <span class="feature-card-text1">
+          <feature-card-wrapper
+            class="feature-card-wrapper"
+            rootclassname="feature-cardundefined"
+          >
+            <!--FeatureCard component-->
+            <div class="feature-card-container feature-cardroot-class-name">
+              <img
+                alt="image"
+                src="public/cube1.svg"
+                class="feature-card-image"
+              />
+              <h5 class="HeadingThree"><span>Initial Assessment</span></h5>
               <span>
-                What processes can we automate? What do we need for that?
+                <fragment class="home-fragment1">
+                  <span class="home-text14">
+                    We perform a thorough AI Readiness Assessment, identify and
+                    prioritize opportunities on a high level, and recommend
+                    strategic next steps.
+                  </span>
+                </fragment>
               </span>
-            </span>
-          </div>
-          <div class="feature-card-container feature-card-root-class-name1">
-            <img
-              alt="image"
-              src="public/person1.svg"
-              class="feature-card-image"
-            />
-            <h5 class="feature-card-text HeadingThree">
-              <span>Strategize</span>
-            </h5>
-            <span class="feature-card-text1">
+            </div>
+          </feature-card-wrapper>
+          <feature-card-wrapper-n37h
+            class="feature-card-wrapper-n37h"
+            rootclassname="feature-cardundefined"
+          >
+            <!--FeatureCard component-->
+            <div class="feature-card-container1 feature-cardroot-class-name1">
+              <img
+                alt="image"
+                src="public/person1.svg"
+                class="feature-card-image1"
+              />
+              <h5 class="HeadingThree"><span>Strategy Development</span></h5>
               <span>
-                What are the quick-wins? What do we need to prepare now in order
-                to automate later?
+                <fragment class="home-fragment2">
+                  <span class="home-text15">
+                    <span>
+                      Comprehensive opportunity analysis, detailed solution
+                      design for top priority areas, prototyping, and
+                      implementation plans.
+                    </span>
+                    <br />
+                    <span></span>
+                  </span>
+                </fragment>
               </span>
-            </span>
-          </div>
-          <div class="feature-card-container feature-card-root-class-name2">
-            <img
-              alt="image"
-              src="public/rocket1.svg"
-              class="feature-card-image"
-            />
-            <h5 class="feature-card-text HeadingThree">
-              <span>Implement</span>
-            </h5>
-            <span class="feature-card-text1">
+            </div>
+          </feature-card-wrapper-n37h>
+          <feature-card-wrapper-jy6j
+            class="feature-card-wrapper-jy6j"
+            rootclassname="feature-cardundefined"
+          >
+            <!--FeatureCard component-->
+            <div class="feature-card-container2 feature-cardroot-class-name2">
+              <img
+                alt="image"
+                src="public/rocket1.svg"
+                class="feature-card-image2"
+              />
+              <h5 class="HeadingThree"><span>Ongoing Advisory</span></h5>
               <span>
-                Building partial automation solutions, and expand as we learn.
+                <fragment class="home-fragment3">
+                  <span class="home-text19">
+                    Monthly strategy sessions, on-demand consultantions,
+                    quarterly review and roadmap updates, training &amp;
+                    knowledge sharing.
+                  </span>
+                </fragment>
               </span>
-            </span>
-          </div>
+            </div>
+          </feature-card-wrapper-jy6j>
         </section>
-        <div class="home-container06">
-          <div class="home-container07">
+        <div class="home-container16">
+          <div class="home-container17">
             <div class="home-testimonial-card">
               <div class="home-testimonial">
-                <span class="home-text04">Nice to meet you! I'm Kjeld.</span>
-                <span class="home-text05">
+                <span class="home-text20">Nice to meet you! I'm Kjeld.</span>
+                <span class="home-text21">
                   <span>
                     Born and raised in Amsterdam, now living in Valencia
                     (Spain). I've been programming since I was nine years old,
@@ -273,11 +321,11 @@
                   </span>
                   <br />
                   <span>Having experience in</span>
-                  <span class="home-text09">
+                  <span class="home-text25">
                     both technical and business-oriented
                   </span>
                   <span>roles, my expertise lies in seamlessly</span>
-                  <span class="home-text11">bridging the gap</span>
+                  <span class="home-text27">bridging the gap</span>
                   <span>
                     between business objectives and technical execution.
                   </span>
@@ -287,26 +335,29 @@
                   href="https://calendly.com/entropical/15min"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="home-link2"
+                  class="home-link3"
                 >
-                  <div class="primary-pink-button-container">
-                    <button
-                      class="primary-pink-button-button button ButtonSmall"
-                    >
-                      <span>Schedule a call</span>
-                    </button>
-                  </div>
+                  <primary-pink-button-wrapper-lj9v class="home-component16">
+                    <!--PrimaryPinkButton component-->
+                    <div class="primary-pink-button-container3">
+                      <button
+                        class="primary-pink-button-button3 button ButtonSmall"
+                      >
+                        <span>Schedule a call</span>
+                      </button>
+                    </div>
+                  </primary-pink-button-wrapper-lj9v>
                 </a>
               </div>
-              <div class="home-container08">
+              <div class="home-container18">
                 <img
                   alt="profile"
                   src="public/1688044030210-200h.jpeg"
-                  class="home-image05"
+                  class="home-image15"
                 />
-                <span class="home-text14">
-                  <span class="home-text15">Kjeld Oostra</span>
-                  <br class="home-text16" />
+                <span class="home-text30">
+                  <span class="home-text31">Kjeld Oostra</span>
+                  <br class="home-text32" />
                   <span>AI Solutions Architect &amp; Strategic Advisor</span>
                   <br />
                 </span>
@@ -314,25 +365,25 @@
             </div>
           </div>
         </div>
-        <section class="home-container09">
-          <div class="home-container10">
-            <h1 class="home-text19 HeadingOne">
+        <section class="home-container19">
+          <div class="home-container20">
+            <h1 class="home-text35 HeadingOne">
               Bridge between business &amp; product
             </h1>
-            <span class="home-text20">
+            <span class="home-text36">
               Business objectives and technical execution can be worlds apart -
               but they don't have to be.
             </span>
           </div>
-          <div class="home-container11">
-            <div class="home-container12">
+          <div class="home-container21">
+            <div class="home-container22">
               <img
                 alt="image"
                 src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laptop.jpg"
-                class="home-image06"
+                class="home-image16"
               />
-              <span class="home-text21">
-                <span class="home-text22 Small">
+              <span class="home-text37">
+                <span class="home-text38 Small">
                   "It is a pleasure to work with Kjeld from Entropical. He has
                   the rare talent of combining deep data science know-how with
                   good commercial sense and deliver against expected outcome."
@@ -341,29 +392,29 @@
                 <span>Ron van Valkengoed, Investor @ Contentoo</span>
                 <br />
               </span>
-              <div class="home-container13">
+              <div class="home-container23">
                 <img
                   alt="image"
                   src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coding.jpg"
-                  class="home-image07"
+                  class="home-image17"
                 />
               </div>
             </div>
-            <div class="home-container14">
+            <div class="home-container24">
               <img
                 alt="image"
                 src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/tasks.jpg"
-                class="home-image08"
+                class="home-image18"
               />
-              <div class="home-container15">
+              <div class="home-container25">
                 <h3 class="HeadingTwo">
                   Whether you're just beginning to explore or looking to enhance
                   existing AI initiatives...
                 </h3>
                 <p>
-                  <br class="home-text28" />
-                  <span class="home-text29">Where can AI add value?</span>
-                  <br class="home-text30" />
+                  <br class="home-text44" />
+                  <span class="home-text45">Where can AI add value?</span>
+                  <br class="home-text46" />
                   <span>
                     Together we evaluate your business goals, your existing data
                     and how your team or product could utilize AI to achieve
@@ -371,10 +422,10 @@
                   </span>
                   <br />
                   <br />
-                  <span class="home-text34">
+                  <span class="home-text50">
                     Select, build and evaluate POCs
                   </span>
-                  <br class="home-text35" />
+                  <br class="home-text51" />
                   <span>
                     Based on your priorities, we select and build proofs of
                     concept. Let's make sure AI can really add the value we
@@ -382,10 +433,10 @@
                   </span>
                   <br />
                   <br />
-                  <span class="home-text39">
+                  <span class="home-text55">
                     Integrate into business processes
                   </span>
-                  <br class="home-text40" />
+                  <br class="home-text56" />
                   <span>
                     Oftentimes, AI-powered automation solutions need to be
                     integrated into existing business processes. We take care if
@@ -396,33 +447,33 @@
             </div>
           </div>
         </section>
-        <div class="home-container16">
-          <div class="home-container17">
-            <h1 class="home-text42 HeadingOne">Some things we've done...</h1>
+        <div class="home-container26">
+          <div class="home-container27">
+            <h1 class="home-text58 HeadingOne">Some things we've done...</h1>
           </div>
         </div>
         <div class="home-blog">
-          <div class="home-container18">
+          <div class="home-container28">
             <a
               href="vacancy-evp-analysis-with-ai-fanployer-case-study.html"
-              class="home-navlink"
+              class="home-navlink1"
             >
-              <div class="home-blog-post-card">
+              <div class="home-blog-post-card1">
                 <img
                   alt="image"
                   src="public/logos/fanployer-logo-1400w.png"
                   image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
-                  class="home-image09"
+                  class="home-image19"
                 />
-                <div class="home-container19">
-                  <div class="home-container20">
-                    <span class="home-text43">CASE STUDY</span>
-                    <span class="home-text44"></span>
+                <div class="home-container29">
+                  <div class="home-container30">
+                    <span class="home-text59">CASE STUDY</span>
+                    <span class="home-text60"></span>
                   </div>
-                  <h1 class="home-text45">
+                  <h1 class="home-text61">
                     Enhancing Employer Branding Strategy with AI
                   </h1>
-                  <span class="home-text46">
+                  <span class="home-text62">
                     Fanployer, a leading company in the HR and recruitment
                     sector, is dedicated to optimizing and aligning employer
                     branding strategies for businesses. Recognizing the need to
@@ -430,32 +481,32 @@
                     through vacancy listings, Fanployer partnered with
                     Entropical.
                   </span>
-                  <div class="home-container21">
-                    <span class="home-text47">Read more&nbsp;→</span>
+                  <div class="home-container31">
+                    <span class="home-text63">Read more&nbsp;→</span>
                   </div>
                 </div>
               </div>
             </a>
             <a
               href="content-marketing-strategy-with-ai-contentoo-case-study.html"
-              class="home-navlink1"
+              class="home-navlink2"
             >
-              <div class="home-blog-post-card1">
+              <div class="home-blog-post-card2">
                 <img
                   alt="image"
                   src="public/logos/contentoo-logo-2-1500h.png"
                   image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
-                  class="home-image10"
+                  class="home-image20"
                 />
-                <div class="home-container22">
-                  <div class="home-container23">
-                    <span class="home-text48">CASE STUDY</span>
-                    <span class="home-text49"></span>
+                <div class="home-container32">
+                  <div class="home-container33">
+                    <span class="home-text64">CASE STUDY</span>
+                    <span class="home-text65"></span>
                   </div>
-                  <h1 class="home-text50">
+                  <h1 class="home-text66">
                     Leveraging AI for Amplified SEO Insights
                   </h1>
-                  <span class="home-text51">
+                  <span class="home-text67">
                     Contentoo, recognized as Europe's premier content creation
                     platform, bridges the gap between freelance content writers
                     and clients seeking high-quality, SEO-optimized
@@ -463,80 +514,83 @@
                     value by providing clients with cutting-edge tools to
                     identify and capitalize on emerging SEO trends.
                   </span>
-                  <div class="home-container24">
-                    <span class="home-text52">Read more&nbsp;→</span>
+                  <div class="home-container34">
+                    <span class="home-text68">Read more&nbsp;→</span>
                   </div>
                 </div>
               </div>
             </a>
           </div>
         </div>
-        <div class="logos2-container thq-section-padding">
-          <div class="logos2-max-width thq-section-max-width">
-            <div class="thq-grid-5">
-              <img
-                alt="Logo1"
-                src="public/logos/openai_logo.svg"
-                class="logos2-logo1 thq-img-ratio-16-9"
-              />
-              <img
-                alt="Logo2"
-                src="public/logos/anthropic_logo.svg"
-                class="logos2-logo2 thq-img-ratio-16-9"
-              />
-              <img
-                alt="Logo3"
-                src="public/logos/hf-logo.svg"
-                class="logos2-logo3 thq-img-ratio-16-9"
-              />
-              <img
-                alt="Logo4"
-                src="public/logos/langwatch-logo-1500w.png"
-                class="logos2-logo4 thq-img-ratio-16-9"
-              />
-              <img
-                alt="Logo5"
-                src="public/logos/postmarkapp_logo_icon_168897.svg"
-                class="logos2-logo5 thq-img-ratio-16-9"
-              />
-              <img
-                alt="image"
-                src="public/logos/airtable_logo.svg"
-                class="logos2-image thq-img-ratio-16-9"
-              />
-              <img
-                alt="image"
-                src="public/logos/make_logo-1500w.png"
-                class="logos2-image1"
-              />
-              <img
-                alt="image"
-                src="public/logos/reactjs_logo_icon_170805.svg"
-                class="logos2-image2"
-              />
-              <img
-                alt="image"
-                src="public/logos/render-logo-1500w.png"
-                class="logos2-image3"
-              />
-              <img
-                alt="image"
-                src="public/logos/nocodb-logo-1500w.png"
-                class="logos2-image4"
-              />
+        <logos2-wrapper class="logos2-wrapper">
+          <!--Logos2 component-->
+          <div class="logos2-container1 thq-section-padding">
+            <div class="logos2-max-width thq-section-max-width">
+              <div class="thq-grid-5">
+                <img
+                  alt="Logo1"
+                  src="public/logos/openai_logo.svg"
+                  class="logos2-logo1 thq-img-ratio-16-9"
+                />
+                <img
+                  alt="Logo2"
+                  src="public/logos/anthropic_logo.svg"
+                  class="logos2-logo2 thq-img-ratio-16-9"
+                />
+                <img
+                  alt="Logo3"
+                  src="public/logos/hf-logo.svg"
+                  class="logos2-logo3 thq-img-ratio-16-9"
+                />
+                <img
+                  alt="Logo4"
+                  src="public/logos/langwatch-logo-1500w.png"
+                  class="logos2-logo4 thq-img-ratio-16-9"
+                />
+                <img
+                  alt="Logo5"
+                  src="public/logos/postmarkapp_logo_icon_168897.svg"
+                  class="logos2-logo5 thq-img-ratio-16-9"
+                />
+                <img
+                  alt="image"
+                  src="public/logos/airtable_logo.svg"
+                  class="logos2-image1 thq-img-ratio-16-9"
+                />
+                <img
+                  alt="image"
+                  src="public/logos/make_logo-1500w.png"
+                  class="logos2-image2"
+                />
+                <img
+                  alt="image"
+                  src="public/logos/reactjs_logo_icon_170805.svg"
+                  class="logos2-image3"
+                />
+                <img
+                  alt="image"
+                  src="public/logos/render-logo-1500w.png"
+                  class="logos2-image4"
+                />
+                <img
+                  alt="image"
+                  src="public/logos/nocodb-logo-1500w.png"
+                  class="logos2-image5"
+                />
+              </div>
             </div>
           </div>
-        </div>
+        </logos2-wrapper>
         <section class="home-testimonials">
-          <div class="home-container25">
-            <div class="home-container26">
-              <div class="home-container27">
-                <h2 class="home-text53 HeadingOne">Let's work together</h2>
-                <p class="home-text54 Lead">
+          <div class="home-container35">
+            <div class="home-container36">
+              <div class="home-container37">
+                <h2 class="home-text69 HeadingOne">Let's work together</h2>
+                <p class="home-text70 Lead">
                   AI solutions that drive efficiency, innovation and competitive
                   advantage. Responsibly.
                 </p>
-                <p class="home-text55">
+                <p class="home-text71">
                   Our approach is tailored and client-centric, focusing on
                   developing bespoke AI applications for unique business needs
                   or guiding existing data teams to enhance their output. We
@@ -548,81 +602,87 @@
                   href="https://calendly.com/entropical/15min"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="home-link3"
+                  class="home-link4"
                 >
-                  <div
-                    class="outline-gray-button-container outline-gray-button-root-class-name"
+                  <outline-gray-button-wrapper-l1h3
+                    class="home-component18"
+                    rootclassname="outline-gray-buttonundefined"
                   >
-                    <button
-                      class="outline-gray-button-button button ButtonSmall"
+                    <!--OutlineGrayButton component-->
+                    <div
+                      class="outline-gray-button-container1 outline-gray-buttonroot-class-name"
                     >
-                      <span>Schedule a call</span>
-                    </button>
-                  </div>
+                      <button
+                        class="outline-gray-button-button1 button ButtonSmall"
+                      >
+                        <span>Schedule a call</span>
+                      </button>
+                    </div>
+                  </outline-gray-button-wrapper-l1h3>
                 </a>
               </div>
             </div>
             <div class="home-logos">
-              <div class="home-container28">
-                <div class="home-container29">
-                  <div class="home-container30">
+              <div class="home-container38">
+                <div class="home-container39">
+                  <div class="home-container40">
                     <img
                       alt="image"
                       src="public/logo-asana.svg"
-                      class="home-image11"
+                      class="home-image21"
                     />
                   </div>
-                  <div class="home-container31">
+                  <div class="home-container41">
                     <img
                       alt="image"
                       src="public/logo-slack.svg"
-                      class="home-image12"
+                      class="home-image22"
                     />
                   </div>
-                  <div class="home-container32">
+                  <div class="home-container42">
                     <img
                       alt="image"
                       src="public/logo-google-drive.svg"
-                      class="home-image13"
+                      class="home-image23"
                     />
                   </div>
                 </div>
-                <div class="home-container33">
-                  <div class="home-container34">
+                <div class="home-container43">
+                  <div class="home-container44">
                     <img
                       alt="image"
                       src="public/logo-shopify.svg"
-                      class="home-image14"
+                      class="home-image24"
                     />
                   </div>
-                  <div class="home-container35">
+                  <div class="home-container45">
                     <img
                       alt="image"
                       src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/small-logos/logo-apple.svg"
-                      class="home-image15"
+                      class="home-image25"
                     />
                   </div>
-                  <div class="home-container36">
+                  <div class="home-container46">
                     <img
                       alt="image"
                       src="public/logo-invision.svg"
-                      class="home-image16"
+                      class="home-image26"
                     />
                   </div>
                 </div>
-                <div class="home-container37">
-                  <div class="home-container38">
+                <div class="home-container47">
+                  <div class="home-container48">
                     <img
                       alt="image"
                       src="public/logo-attlasian.svg"
-                      class="home-image17"
+                      class="home-image27"
                     />
                   </div>
-                  <div class="home-container39">
+                  <div class="home-container49">
                     <img
                       alt="image"
                       src="public/logo-weave.svg"
-                      class="home-image18"
+                      class="home-image28"
                     />
                   </div>
                 </div>
@@ -634,27 +694,36 @@
             src="public/bottom.svg"
             class="home-bottom-wave-image"
           />
-          <img alt="image" src="public/waves-white.svg" class="home-image19" />
+          <img alt="image" src="public/waves-white.svg" class="home-image29" />
           <img alt="image" src="public/top.svg" class="home-top-wave-image" />
         </section>
-        <footer class="footer-footer">
-          <div class="footer-container">
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <footer class="footer-footer footer">
             <div class="footer-container1">
-              <span class="footer-text">ENTROPICAL</span>
-              <span>Copyright © 2024 Entropical</span>
-            </div>
-            <div class="footer-container2">
+              <div class="footer-container2">
+                <span class="footer-text1">ENTROPICAL</span>
+                <span>Copyright © 2024 Entropical</span>
+              </div>
               <div class="footer-container3">
-                <span class="footer-text2 Large">Contact details</span>
-                <span class="footer-text3 Large">C/ Almirante Cadarso 26,</span>
-                <span class="footer-text4 Large">Valencia, Spain</span>
-                <span class="footer-text5 Large">kjeld@entropical.ai</span>
-                <span class="footer-text6 Large">+31 6 1818 0205</span>
+                <div class="footer-container4">
+                  <span class="footer-text3 Large">Contact details</span>
+                  <span class="footer-text4 Large">
+                    C/ Almirante Cadarso 26,
+                  </span>
+                  <span class="footer-text5 Large">Valencia, Spain</span>
+                  <span class="footer-text6 Large">kjeld@entropical.ai</span>
+                  <span class="footer-text7 Large">+31 6 1818 0205</span>
+                </div>
               </div>
             </div>
-          </div>
-          <img alt="image" src="public/waves-white.svg" class="footer-image" />
-        </footer>
+            <img
+              alt="image"
+              src="public/waves-white.svg"
+              class="footer-image"
+            />
+          </footer>
+        </footer-wrapper>
       </div>
     </div>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>

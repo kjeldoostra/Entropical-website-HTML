@@ -35,7 +35,7 @@
         letter-spacing: normal;
         line-height: 1.625;
         color: var(--dl-color-secondary-400);
-        background-color: var(--dl-color-gray-white);
+        background: var(--dl-color-gray-white);
 
         null
       }
@@ -78,143 +78,104 @@
     <div>
       <link href="./404.css" rel="stylesheet" />
 
-      <div class="page-container">
-        <div data-role="Header" class="header-header">
-          <nav class="header-nav">
-            <div class="header-container">
-              <a href="index.html" class="header-link">
-                <img
-                  alt="image"
-                  src="public/logos/entropical%20logo%20new-1500h.png"
-                  class="header-image"
-                />
-              </a>
+      <div class="page-container1">
+        <header-wrapper class="header-wrapper">
+          <!--Header component-->
+          <div data-role="Header" class="header-header">
+            <nav class="header-nav">
               <div class="header-container1">
+                <a href="index.html" class="header-link1">
+                  <img
+                    alt="image"
+                    src="public/logos/entropical%20logo%20new-1500h.png"
+                    class="header-image1"
+                  />
+                </a>
                 <div class="header-container2">
-                  <a
-                    href="https://calendly.com/entropical/15min"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    class="header-link1"
-                  >
-                    <div class="primary-pink-button-container">
-                      <button
-                        class="primary-pink-button-button button ButtonSmall"
-                      >
-                        <span>Schedule a call</span>
-                      </button>
-                    </div>
-                  </a>
+                  <div class="header-container3">
+                    <a
+                      href="https://calendly.com/entropical/15min"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="header-link2"
+                    >
+                      <primary-pink-button-wrapper class="header-component1">
+                        <!--PrimaryPinkButton component-->
+                        <div class="primary-pink-button-container">
+                          <button
+                            class="primary-pink-button-button button ButtonSmall"
+                          >
+                            <span>Schedule a call</span>
+                          </button>
+                        </div>
+                      </primary-pink-button-wrapper>
+                    </a>
+                  </div>
+                  <div data-role="BurgerMenu" class="header-burger-menu">
+                    <svg viewBox="0 0 1024 1024" class="header-icon1">
+                      <path
+                        d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                      ></path>
+                    </svg>
+                  </div>
                 </div>
-                <div data-role="BurgerMenu" class="header-burger-menu">
-                  <svg viewBox="0 0 1024 1024" class="header-icon">
+              </div>
+            </nav>
+            <div data-role="MobileMenu" class="header-mobile-menu">
+              <div class="header-top">
+                <a href="index.html" class="header-navlink">
+                  <img
+                    alt="image"
+                    src="public/logos/entropical%20logo%20new-1500h.png"
+                    class="header-image2"
+                  />
+                </a>
+                <div data-role="CloseMobileMenu" class="header-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="header-icon3">
                     <path
-                      d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                     ></path>
                   </svg>
                 </div>
               </div>
-            </div>
-          </nav>
-          <div data-role="MobileMenu" class="header-mobile-menu">
-            <div class="header-top">
-              <a href="index.html" class="header-navlink">
-                <img
-                  alt="image"
-                  src="public/logos/entropical%20logo%20new-1500h.png"
-                  class="header-image1"
-                />
-              </a>
-              <div data-role="CloseMobileMenu" class="header-close-menu">
-                <svg viewBox="0 0 1024 1024" class="header-icon2">
-                  <path
-                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                  ></path>
-                </svg>
+              <div class="header-mid">
+                <a
+                  href="https://calendly.com/entropical/15min"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="header-link3"
+                >
+                  <primary-pink-button-wrapper-mkkv class="header-component2">
+                    <!--PrimaryPinkButton component-->
+                    <div class="primary-pink-button-container1">
+                      <button
+                        class="primary-pink-button-button1 button ButtonSmall"
+                      >
+                        <span>Schedule a call</span>
+                      </button>
+                    </div>
+                  </primary-pink-button-wrapper-mkkv>
+                </a>
               </div>
             </div>
-            <div class="header-mid">
-              <a
-                href="https://calendly.com/entropical/15min"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="header-link2"
-              >
-                <div class="primary-pink-button-container">
-                  <button class="primary-pink-button-button button ButtonSmall">
-                    <span>Schedule a call</span>
-                  </button>
-                </div>
-              </a>
-            </div>
           </div>
-        </div>
-        <div class="page-container1">
+        </header-wrapper>
+        <div class="page-container2">
           <div class="page-main">
-            <div class="page-container2">
-              <h1 class="page-text HeadingOne">Not found!</h1>
-              <h1 class="page-text1">This page does not exist.</h1>
-              <p class="page-text2"></p>
+            <div class="page-container3">
+              <h1 class="page-text1 HeadingOne">Not found!</h1>
+              <h1 class="page-text2">This page does not exist.</h1>
+              <p class="page-text3"></p>
             </div>
             <div class="page-grid">
               <img
                 alt="image"
                 src="public/iphone-3-1000w.png"
-                class="page-image"
-              />
-              <img
-                alt="image"
-                src="public/iphone-2-1000w.png"
-                class="page-image01"
-              />
-              <img
-                alt="image"
-                src="public/iphone-4-1000w.png"
-                class="page-image02"
-              />
-              <img
-                alt="image"
-                src="public/iphone-1-1000w.png"
-                class="page-image03"
-              />
-              <img
-                alt="image"
-                src="public/iphone-2-1000w.png"
-                class="page-image04"
-              />
-              <img
-                alt="image"
-                src="public/iphone-4-1000w.png"
-                class="page-image05"
-              />
-              <img
-                alt="image"
-                src="public/iphone-1-1000w.png"
-                class="page-image06"
-              />
-              <img
-                alt="image"
-                src="public/iphone-3-1000w.png"
-                class="page-image07"
-              />
-              <img
-                alt="image"
-                src="public/iphone-2-1000w.png"
-                class="page-image08"
-              />
-              <img
-                alt="image"
-                src="public/iphone-4-1000w.png"
-                class="page-image09"
-              />
-              <img
-                alt="image"
-                src="public/iphone-1-1000w.png"
                 class="page-image10"
               />
               <img
                 alt="image"
-                src="public/iphone-3-1000w.png"
+                src="public/iphone-2-1000w.png"
                 class="page-image11"
               />
               <img
@@ -229,35 +190,94 @@
               />
               <img
                 alt="image"
-                src="public/iphone-3-1000w.png"
+                src="public/iphone-2-1000w.png"
                 class="page-image14"
               />
               <img
                 alt="image"
-                src="public/iphone-2-1000w.png"
+                src="public/iphone-4-1000w.png"
                 class="page-image15"
+              />
+              <img
+                alt="image"
+                src="public/iphone-1-1000w.png"
+                class="page-image16"
+              />
+              <img
+                alt="image"
+                src="public/iphone-3-1000w.png"
+                class="page-image17"
+              />
+              <img
+                alt="image"
+                src="public/iphone-2-1000w.png"
+                class="page-image18"
+              />
+              <img
+                alt="image"
+                src="public/iphone-4-1000w.png"
+                class="page-image19"
+              />
+              <img
+                alt="image"
+                src="public/iphone-1-1000w.png"
+                class="page-image20"
+              />
+              <img
+                alt="image"
+                src="public/iphone-3-1000w.png"
+                class="page-image21"
+              />
+              <img
+                alt="image"
+                src="public/iphone-4-1000w.png"
+                class="page-image22"
+              />
+              <img
+                alt="image"
+                src="public/iphone-1-1000w.png"
+                class="page-image23"
+              />
+              <img
+                alt="image"
+                src="public/iphone-3-1000w.png"
+                class="page-image24"
+              />
+              <img
+                alt="image"
+                src="public/iphone-2-1000w.png"
+                class="page-image25"
               />
             </div>
           </div>
         </div>
-        <footer class="footer-footer footer-root-class-name">
-          <div class="footer-container">
+        <footer-wrapper class="footer-wrapper" rootclassname="footerundefined">
+          <!--Footer component-->
+          <footer class="footer-footer footerroot-class-name">
             <div class="footer-container1">
-              <span class="footer-text">ENTROPICAL</span>
-              <span>Copyright © 2024 Entropical</span>
-            </div>
-            <div class="footer-container2">
+              <div class="footer-container2">
+                <span class="footer-text1">ENTROPICAL</span>
+                <span>Copyright © 2024 Entropical</span>
+              </div>
               <div class="footer-container3">
-                <span class="footer-text2 Large">Contact details</span>
-                <span class="footer-text3 Large">C/ Almirante Cadarso 26,</span>
-                <span class="footer-text4 Large">Valencia, Spain</span>
-                <span class="footer-text5 Large">kjeld@entropical.ai</span>
-                <span class="footer-text6 Large">+31 6 1818 0205</span>
+                <div class="footer-container4">
+                  <span class="footer-text3 Large">Contact details</span>
+                  <span class="footer-text4 Large">
+                    C/ Almirante Cadarso 26,
+                  </span>
+                  <span class="footer-text5 Large">Valencia, Spain</span>
+                  <span class="footer-text6 Large">kjeld@entropical.ai</span>
+                  <span class="footer-text7 Large">+31 6 1818 0205</span>
+                </div>
               </div>
             </div>
-          </div>
-          <img alt="image" src="public/waves-white.svg" class="footer-image" />
-        </footer>
+            <img
+              alt="image"
+              src="public/waves-white.svg"
+              class="footer-image"
+            />
+          </footer>
+        </footer-wrapper>
       </div>
     </div>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>

@@ -1,3 +1,6 @@
+.primary-pink-button-wrapper {
+  display: contents;
+}
 .primary-pink-button-container {
   display: flex;
   position: relative;
@@ -20,6 +23,34 @@
   transform: scale(1.02);
 }
 
+.primary-pink-button-wrapper-d9r1 {
+  display: contents;
+}
+.primary-pink-button-container1 {
+  display: flex;
+  position: relative;
+}
+.primary-pink-button-button1 {
+  color: var(--dl-color-gray-white);
+  outline: none;
+  background: linear-gradient( 310deg ,#7928ca,#ff0080);
+  box-shadow: 0 4px 7px -1px rgb(0 0 0 / 11%), 0 2px 4px -1px rgb(0 0 0 / 7%);
+  transition: all .15s ease-in;
+  padding-top: var(--dl-space-space-triplequarterunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unitandahalfunit);
+  border-radius: 1.875rem;
+  padding-right: var(--dl-space-space-unitandahalfunit);
+  padding-bottom: var(--dl-space-space-triplequarterunit);
+}
+.primary-pink-button-button1:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.header-wrapper {
+  display: contents;
+}
 .header-header {
   top: 0px;
   left: auto;
@@ -54,30 +85,9 @@
   justify-content: space-between;
   background-color: hsla(0,0%,100%,.8)!important;
 }
-.header-container {
+.header-container1 {
   color: var(--dl-color-gray-black);
   width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.header-link {
-  display: contents;
-}
-.header-image {
-  width: 150px;
-  align-self: center;
-  object-fit: cover;
-  text-decoration: none;
-}
-.header-container1 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.header-container2 {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -86,7 +96,28 @@
 .header-link1 {
   display: contents;
 }
-.header-component {
+.header-image1 {
+  width: 150px;
+  align-self: center;
+  object-fit: cover;
+  text-decoration: none;
+}
+.header-container2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-container3 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-link2 {
+  display: contents;
+}
+.header-component1 {
   text-decoration: none;
 }
 .header-burger-menu {
@@ -95,7 +126,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.header-icon {
+.header-icon1 {
   width: 24px;
   height: 24px;
   margin-left: var(--dl-space-space-unit);
@@ -126,7 +157,7 @@
 .header-navlink {
   display: contents;
 }
-.header-image1 {
+.header-image2 {
   width: 150px;
   align-self: center;
   object-fit: cover;
@@ -138,7 +169,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.header-icon2 {
+.header-icon3 {
   width: 24px;
   height: 24px;
 }
@@ -151,10 +182,10 @@
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.header-link2 {
+.header-link3 {
   display: contents;
 }
-.header-component1 {
+.header-component2 {
   text-decoration: none;
 }
 @media(max-width: 991px) {
@@ -168,11 +199,39 @@
   }
 }
 @media(max-width: 479px) {
-  .header-container2 {
+  .header-container3 {
     display: none;
   }
 }
 
+.primary-pink-button-wrapper-z6ts {
+  display: contents;
+}
+.primary-pink-button-container2 {
+  display: flex;
+  position: relative;
+}
+.primary-pink-button-button2 {
+  color: var(--dl-color-gray-white);
+  outline: none;
+  background: linear-gradient( 310deg ,#7928ca,#ff0080);
+  box-shadow: 0 4px 7px -1px rgb(0 0 0 / 11%), 0 2px 4px -1px rgb(0 0 0 / 7%);
+  transition: all .15s ease-in;
+  padding-top: var(--dl-space-space-triplequarterunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unitandahalfunit);
+  border-radius: 1.875rem;
+  padding-right: var(--dl-space-space-unitandahalfunit);
+  padding-bottom: var(--dl-space-space-triplequarterunit);
+}
+.primary-pink-button-button2:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.footer-wrapper {
+  display: contents;
+}
 .footer-footer {
   width: 100%;
   height: auto;
@@ -182,7 +241,7 @@
   flex-direction: column;
   background-image: linear-gradient(310deg,#141727,#3a416f);
 }
-.footer-container {
+.footer-container1 {
   color: var(--dl-color-gray-white);
   width: 100%;
   display: flex;
@@ -191,36 +250,28 @@
   max-width: 1320px;
   justify-content: space-between;
 }
-.footer-container1 {
+.footer-container2 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.footer-text {
+.footer-text1 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.footer-container2 {
+.footer-container3 {
   display: flex;
   justify-content: space-between;
 }
-.footer-container3 {
+.footer-container4 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.footer-text2 {
+.footer-text3 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
-}
-.footer-text3 {
-  color: var(--dl-color-gray-800);
-  transition: 0.3s;
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.footer-text3:hover {
-  color: var(--dl-color-gray-white);
 }
 .footer-text4 {
   color: var(--dl-color-gray-800);
@@ -246,6 +297,14 @@
 .footer-text6:hover {
   color: var(--dl-color-gray-white);
 }
+.footer-text7 {
+  color: var(--dl-color-gray-800);
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.footer-text7:hover {
+  color: var(--dl-color-gray-white);
+}
 .footer-image {
   top: 0px;
   left: auto;
@@ -260,21 +319,21 @@
 
 
 @media(max-width: 991px) {
-  .footer-container {
+  .footer-container1 {
     padding: var(--dl-space-space-doubleunit);
   }
 }
 @media(max-width: 767px) {
-  .footer-container {
+  .footer-container1 {
     flex-direction: column;
   }
-  .footer-container1 {
+  .footer-container2 {
     align-items: center;
     margin-bottom: var(--dl-space-space-doubleunit);
   }
 }
 
-.content-marketing-strategy-with-ai-contentoo-case-study-container {
+.content-marketing-strategy-with-ai-contentoo-case-study-container1 {
   width: 100%;
   height: auto;
   display: flex;
@@ -284,7 +343,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-900);
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-container1 {
+.content-marketing-strategy-with-ai-contentoo-case-study-container2 {
   width: 100%;
   height: auto;
   display: flex;
@@ -304,7 +363,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-container2 {
+.content-marketing-strategy-with-ai-contentoo-case-study-container3 {
   flex: 0 0 auto;
   width: 70%;
   display: flex;
@@ -319,51 +378,51 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-tripleunit);
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-image {
+.content-marketing-strategy-with-ai-contentoo-case-study-image10 {
   width: 200px;
   object-fit: cover;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-text {
+.content-marketing-strategy-with-ai-contentoo-case-study-text10 {
   font-size: 3rem;
   margin-bottom: var(--dl-space-space-halfunit);
   background-image: linear-gradient(310deg, rgb(121, 40, 202), rgb(255, 0, 128));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-text04 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text14 {
   font-weight: 700;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-text06 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text16 {
   font-weight: 700;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-text08 {
-  margin-top: var(--dl-space-space-unit);
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-text11 {
-  font-weight: 700;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-text13 {
-  margin-top: var(--dl-space-space-unit);
 }
 .content-marketing-strategy-with-ai-contentoo-case-study-text18 {
-  font-weight: 700;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-text20 {
-  font-weight: 700;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-text22 {
-  font-weight: 700;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-text24 {
-  font-weight: 700;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-text26 {
   margin-top: var(--dl-space-space-unit);
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-text29 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text21 {
   font-weight: 700;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-text31 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text23 {
+  margin-top: var(--dl-space-space-unit);
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-text28 {
+  font-weight: 700;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-text30 {
+  font-weight: 700;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-text32 {
+  font-weight: 700;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-text34 {
+  font-weight: 700;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-text36 {
+  margin-top: var(--dl-space-space-unit);
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-text39 {
+  font-weight: 700;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-text41 {
   font-weight: 700;
 }
 .content-marketing-strategy-with-ai-contentoo-case-study-testimonial-card {
@@ -384,28 +443,28 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-text33 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text43 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-text34 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text44 {
   color: var(--dl-color-gray-500);
   font-size: 1.15rem;
   margin-bottom: 32px;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-text38 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text48 {
   font-weight: 700;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-text40 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text50 {
   font-weight: 700;
 }
 .content-marketing-strategy-with-ai-contentoo-case-study-link {
   display: contents;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-component1 {
+.content-marketing-strategy-with-ai-contentoo-case-study-component2 {
   text-decoration: none;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-container3 {
+.content-marketing-strategy-with-ai-contentoo-case-study-container4 {
   flex: 0 0 auto;
   width: 192px;
   height: auto;
@@ -413,17 +472,17 @@
   align-items: space-between;
   flex-direction: column;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-image01 {
+.content-marketing-strategy-with-ai-contentoo-case-study-image11 {
   width: 192px;
   height: 192px;
   object-fit: cover;
   flex-shrink: 0;
   border-radius: var(--dl-radius-radius-round);
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-text43 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text53 {
   text-align: center;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-text44 {
+.content-marketing-strategy-with-ai-contentoo-case-study-text54 {
   font-weight: 700;
 }
 .content-marketing-strategy-with-ai-contentoo-case-study-grid {
@@ -437,69 +496,69 @@
   transform: rotate(20deg);
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.content-marketing-strategy-with-ai-contentoo-case-study-image02 {
-  width: 100%;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-image03 {
-  width: 100%;
-  margin-top: -200px;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-image04 {
-  width: 100%;
-  margin-top: -50px;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-image05 {
-  width: 100%;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-image06 {
-  width: 100%;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-image07 {
-  width: 100%;
-  margin-top: -200px;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-image08 {
-  width: 100%;
-  margin-top: -50px;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-image09 {
-  width: 100%;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-image10 {
-  width: 100%;
-}
-.content-marketing-strategy-with-ai-contentoo-case-study-image11 {
-  width: 100%;
-  margin-top: -200px;
-}
 .content-marketing-strategy-with-ai-contentoo-case-study-image12 {
   width: 100%;
-  margin-top: -50px;
 }
 .content-marketing-strategy-with-ai-contentoo-case-study-image13 {
   width: 100%;
+  margin-top: -200px;
 }
 .content-marketing-strategy-with-ai-contentoo-case-study-image14 {
   width: 100%;
+  margin-top: -50px;
 }
 .content-marketing-strategy-with-ai-contentoo-case-study-image15 {
   width: 100%;
-  margin-top: -200px;
 }
 .content-marketing-strategy-with-ai-contentoo-case-study-image16 {
   width: 100%;
 }
 .content-marketing-strategy-with-ai-contentoo-case-study-image17 {
   width: 100%;
+  margin-top: -200px;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-image18 {
+  width: 100%;
+  margin-top: -50px;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-image19 {
+  width: 100%;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-image20 {
+  width: 100%;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-image21 {
+  width: 100%;
+  margin-top: -200px;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-image22 {
+  width: 100%;
+  margin-top: -50px;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-image23 {
+  width: 100%;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-image24 {
+  width: 100%;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-image25 {
+  width: 100%;
+  margin-top: -200px;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-image26 {
+  width: 100%;
+}
+.content-marketing-strategy-with-ai-contentoo-case-study-image27 {
+  width: 100%;
 }
 @media(max-width: 991px) {
-  .content-marketing-strategy-with-ai-contentoo-case-study-container1 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-container2 {
     background-size: auto;
   }
   .content-marketing-strategy-with-ai-contentoo-case-study-main {
     justify-content: flex-start;
   }
-  .content-marketing-strategy-with-ai-contentoo-case-study-container2 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-container3 {
     width: 70%;
     align-self: flex-start;
     margin-top: 0px;
@@ -509,10 +568,10 @@
     margin-bottom: 0px;
     padding-right: var(--dl-space-space-tripleunit);
   }
-  .content-marketing-strategy-with-ai-contentoo-case-study-text44 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-text54 {
     font-weight: 700;
   }
-  .content-marketing-strategy-with-ai-contentoo-case-study-text45 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-text55 {
     font-weight: 700;
   }
   .content-marketing-strategy-with-ai-contentoo-case-study-grid {
@@ -520,36 +579,6 @@
     left: auto;
     right: -6rem;
     bottom: -6rem;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image02 {
-    width: 120px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image03 {
-    width: 120px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image04 {
-    width: 120px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image05 {
-    width: 120px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image06 {
-    width: 120px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image07 {
-    width: 120px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image08 {
-    width: 120px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image09 {
-    width: 120px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image10 {
-    width: 120px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image11 {
-    width: 120px;
   }
   .content-marketing-strategy-with-ai-contentoo-case-study-image12 {
     width: 120px;
@@ -565,14 +594,44 @@
   }
   .content-marketing-strategy-with-ai-contentoo-case-study-image16 {
     width: 120px;
-    margin-top: -50px;
   }
   .content-marketing-strategy-with-ai-contentoo-case-study-image17 {
     width: 120px;
   }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image18 {
+    width: 120px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image19 {
+    width: 120px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image20 {
+    width: 120px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image21 {
+    width: 120px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image22 {
+    width: 120px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image23 {
+    width: 120px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image24 {
+    width: 120px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image25 {
+    width: 120px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image26 {
+    width: 120px;
+    margin-top: -50px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image27 {
+    width: 120px;
+  }
 }
 @media(max-width: 767px) {
-  .content-marketing-strategy-with-ai-contentoo-case-study-container2 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-container3 {
     width: 100%;
   }
   .content-marketing-strategy-with-ai-contentoo-case-study-testimonial-card {
@@ -585,36 +644,6 @@
   .content-marketing-strategy-with-ai-contentoo-case-study-grid {
     right: 0;
   }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image02 {
-    width: 100px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image03 {
-    width: 100px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image04 {
-    width: 100px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image05 {
-    width: 100px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image06 {
-    width: 100px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image07 {
-    width: 100px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image08 {
-    width: 100px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image09 {
-    width: 100px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image10 {
-    width: 100px;
-  }
-  .content-marketing-strategy-with-ai-contentoo-case-study-image11 {
-    width: 100px;
-  }
   .content-marketing-strategy-with-ai-contentoo-case-study-image12 {
     width: 100px;
   }
@@ -631,6 +660,36 @@
     width: 100px;
   }
   .content-marketing-strategy-with-ai-contentoo-case-study-image17 {
+    width: 100px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image18 {
+    width: 100px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image19 {
+    width: 100px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image20 {
+    width: 100px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image21 {
+    width: 100px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image22 {
+    width: 100px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image23 {
+    width: 100px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image24 {
+    width: 100px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image25 {
+    width: 100px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image26 {
+    width: 100px;
+  }
+  .content-marketing-strategy-with-ai-contentoo-case-study-image27 {
     width: 100px;
   }
 }
@@ -647,7 +706,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .content-marketing-strategy-with-ai-contentoo-case-study-text34 {
+  .content-marketing-strategy-with-ai-contentoo-case-study-text44 {
     text-align: left;
   }
 }

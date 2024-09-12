@@ -1,4 +1,4 @@
-.logos2-container {
+.logos2-container1 {
   gap: 48px;
   width: 100%;
   display: flex;
@@ -33,36 +33,36 @@
   padding: 20px;
   object-fit: contain;
 }
-.logos2-image {
+.logos2-image1 {
   width: 100%;
   padding: 20px;
   object-fit: contain;
   padding-bottom: 49px;
 }
-.logos2-image1 {
+.logos2-image2 {
   width: 100%;
   padding: 20px;
   object-fit: contain;
 }
-.logos2-image2 {
+.logos2-image3 {
   width: 100%;
   object-fit: contain;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
 }
-.logos2-image3 {
-  width: 100%;
-  padding: 20px;
-  object-fit: contain;
-}
 .logos2-image4 {
   width: 100%;
   padding: 20px;
   object-fit: contain;
 }
+.logos2-image5 {
+  width: 100%;
+  padding: 20px;
+  object-fit: contain;
+}
 @media(max-width: 767px) {
-  .logos2-container {
+  .logos2-container1 {
     gap: 32px;
   }
   .logos2-max-width {
