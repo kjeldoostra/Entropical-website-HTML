@@ -23,7 +23,7 @@
   transform: scale(1.02);
 }
 
-.primary-pink-button-wrapper-m71c {
+.primary-pink-button-wrapper-u7xj {
   display: contents;
 }
 .primary-pink-button-container1 {
@@ -265,8 +265,8 @@
   color: var(--dl-color-gray-white);
 }
 .footer-text6 {
+  fill: var(--dl-color-gray-800);
   color: var(--dl-color-gray-800);
-  transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .footer-text6:hover {

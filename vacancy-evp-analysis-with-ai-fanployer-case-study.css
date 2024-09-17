@@ -23,7 +23,7 @@
   transform: scale(1.02);
 }
 
-.primary-pink-button-wrapper-yzwv {
+.primary-pink-button-wrapper-u4ql {
   display: contents;
 }
 .primary-pink-button-container1 {
@@ -204,7 +204,7 @@
   }
 }
 
-.primary-pink-button-wrapper-fi5q {
+.primary-pink-button-wrapper-lort {
   display: contents;
 }
 .primary-pink-button-container2 {
@@ -290,8 +290,8 @@
   color: var(--dl-color-gray-white);
 }
 .footer-text6 {
+  fill: var(--dl-color-gray-800);
   color: var(--dl-color-gray-800);
-  transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .footer-text6:hover {
